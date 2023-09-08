@@ -37,40 +37,28 @@ Versão 1.3 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/m
 
 Comandos Básicos
 
-• netcat (novos exemplos)
+    • netcat (novos exemplos)
 
-• ftp
+    • ftp
 
-• whois
+    • whois
 
-• mutt
+    • mutt
 
-• mail/mailx
+    • mail/mailx
 
 
   
 Utilitários Avançados
 
-• nmap
+    • nmap
 
-• ngrep
+    • ngrep
   
-  • sshpass
-  
-  • Python Simple HTTP Server
-  
-  • comandos r (rcp, rexec, rlogin, rsh)
-  
-  • net
-  
-  • snmp*
-  
-  • nfs*
-  
-  • sshfs
+
   
 Anexo
 
-• systemctl
+    • systemctl
 
-• journalctl
+    • journalctl
