@@ -33,3 +33,20 @@ Versão 1.2 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/m
       
     Iptables
     
+Versão 1.3 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_Simples_v1_3.pdf
+
+2 Comandos Básicos
+• netcat (novos exemplos)
+• ftp
+• whois
+• mutt
+• mail/mailx
+
+4 Utilitários Avançados
+• nmap
+• ngrep
+
+Anexo
+• systemctl
+• journalctl
+
