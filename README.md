@@ -62,3 +62,10 @@ Anexo
     • systemctl
 
     • journalctl
+
+Versão 1.4 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitarios_de_Redes_v1_4.pdf
+
+
+Utilitários Avançados
+
+    • tshark
