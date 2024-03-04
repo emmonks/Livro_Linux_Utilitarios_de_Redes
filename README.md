@@ -69,3 +69,27 @@ Versão 1.4 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/m
 Utilitários Avançados
 
     • tshark
+
+Versão 1.5 - [https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitarios_de_Redes_v1_5.pdf](https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_1_5.pdf)
+
+
+    • Revisão do texto
+    
+    • Adição de links para vídeos do canal https://www.youtube.com/emmonks relacionados aos comandos 
+    
+2 Comandos Básicos
+
+  •   iperf3
+  
+  •   kdig
+  
+
+4 Utilitários Avançados
+
+    •   nmcli
+ 
+ Anexo 
+
+    •  Vmware Player: Configurações de Interfaces de Rede
+    •  VirtualBox: Configurações de Interfaces de Rede
+    
