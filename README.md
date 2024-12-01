@@ -92,4 +92,27 @@ Versão 1.5 - [https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/
 
     •  Vmware Player: Configurações de Interfaces de Rede
     •  VirtualBox: Configurações de Interfaces de Rede
+
+Versão 1.6 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_6.pdf
+
+    • Revisão do texto
     
+2 Comandos Básicos
+
+• lldpcli
+
+• ldap*
+
+4 Utilitários Avançados
+
+• iscsi*
+
+6 - Docker Networking
+
+Anexo
+
+• Tabela 6.2: Endereços IPv4 para uso privado
+
+• Características de Rede
+
+• Diagnóstico de Problemas em Rede
