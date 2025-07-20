@@ -1,0 +1,63 @@
+#!/bin/bash
+# Firewall da empresa 1 - IPv6
+# NAT - rede interna para a interface externa
+# eth1 - interface externa (WAN)
+# eth0 - interface interna (LAN)
+# eth2 - interface DMZ
+# Firewall simples para IPv6
+
+# Ativar roteamento
+echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+
+# Limpa regras
+ip6tables -F INPUT
+ip6tables -F OUTPUT
+ip6tables -F FORWARD
+ip6tables  -F -t mangle
+ip6tables -F
+
+# Politica padrao DROP
+ip6tables -P INPUT DROP
+ip6tables -P OUTPUT ACCEPT
+#ip6tables -P FORWARD DROP
+
+# Estados das conexoes
+ip6tables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+ip6tables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
+ip6tables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Libera acesso localhost
+ip6tables -A INPUT -i lo -j ACCEPT
+
+# Libera enderecos Link-Local
+ip6tables -A INPUT -s fe80::/10 -j ACCEPT
+
+# Libera multicast
+ip6tables -A INPUT -d ff00::/8 -j ACCEPT
+
+# Libera ICMP
+ip6tables -A INPUT -p icmpv6 -s 2001:6::/48 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 -s 2001:4::/64 -j ACCEPT
+
+#               ===========================
+#               ### Libera HTTP e HTTPs ###
+#               ===========================
+
+ip6tables -A FORWARD -i eth0 -p tcp  -s ::/0 -m multiport --dport 80,443,8080,5001 -j ACCEPT
+
+
+# ICMP
+ip6tables -A INPUT -i eth0 -p icmpv6  -s ::/0  -j ACCEPT
+
+# SSH
+ip6tables -A FORWARD -i eth0 -p tcp -d 2001:5:10:102::/64 --dport 50000 -j ACCEPT
+
+# Libera acesso de qualquer origem para a porta TCP 5001 do firewall
+ip6tables -A INPUT -i eth0 -p tcp -s ::/0 --dport 5001 -j ACCEPT
+
+# Libera acesso para um host realizar acesso ao protocolo RDP
+ip6tables -A FORWARD -i eth0 -p tcp -s 2001:2::161:0:8/128 -m multiport --dport 3389 -j ACCEPT
+
+
+# Logs 
+#ip6tables -A INPUT -j LOG --log-prefix "Firewall:input:DROP:" -m limit --limit 20/min --limit-burst 5 --log-level 7
