@@ -116,3 +116,38 @@ Anexo
 • Características de Rede
 
 • Diagnóstico de Problemas em Rede
+
+Versão 1.7 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_7.pdf
+
+    • Edição (revisão 7), Julho de 2025 
+    
+    • Publicado versão impressa disponível em https://loja.uiclap.com/titulo/ua107293/ 
+        
+    • Revisão do texto
+    • Adição de query codes para os Links
+
+2 Comandos Básicos
+
+mii-tool
+
+arpwatch
+
+nethogs
+
+tracepath
+
+speedtest-cli
+
+lsof
+
+bmon
+
+4 Utilitários Avançados
+
+sysctl
+
+hping3
+
+ip tunnel
+
+
