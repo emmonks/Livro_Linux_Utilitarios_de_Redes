@@ -117,7 +117,8 @@ Anexo
 
 • Diagnóstico de Problemas em Rede
 
-Versão 1.7 - https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_7.pdf
+Versão 1.7 - [https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_7.pdf
+](https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_7.pdf.pdf)
 
     • Edição (revisão 7), Julho de 2025 
     
