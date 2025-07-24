@@ -119,11 +119,9 @@ Anexo
 
 Versão 1.7 - [https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/blob/main/LivroUtilitariosRede_v1_7.pdf
 ](https://github.com/emmonks/Livro_Linux_Utilitarios_de_Redes/releases/download/versao1.7/LivroUtilitariosRede_v1_7.pdf)
+## Publicado versão física disponível em https://loja.uiclap.com/titulo/ua107293/ 
 
     • Edição (revisão 7), Julho de 2025 
-    
-    • Publicado versão impressa disponível em https://loja.uiclap.com/titulo/ua107293/ 
-        
     • Revisão do texto
     • Adição de query codes para os Links
 
